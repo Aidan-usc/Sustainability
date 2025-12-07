@@ -56,7 +56,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-a :hover {
+nav ul li a :hover {
     background-color: #e7ffe7;
     color: #008000;
 }
@@ -75,7 +75,7 @@ main section {display: flex;}
 
 main section div {
     background-color:#e7ffe7;
-    border:solid 3px #008000;
+    border:solid 1px #008000;
     border-radius:10px;
     width:auto;
     margin-right: 1rem;
@@ -91,4 +91,5 @@ main section div h2 {
 }
 
     
+
 main section div {border-radius: 10 10 0 0;}
