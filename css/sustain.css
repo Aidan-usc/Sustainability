@@ -56,7 +56,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-nav ul li a :hover {
+nav ul li a:hover {
     background-color: #e7ffe7;
     color: #008000;
 }
@@ -76,7 +76,6 @@ main section {display: flex;}
 main section div {
     background-color:#e7ffe7;
     border:solid 1px #008000;
-    border-radius:10px;
     width:auto;
     margin-right: 1rem;
     align-content:center;
@@ -86,11 +85,17 @@ main section div:last-child{margin-right: 0;}
 
 main section div h2 {
     background-color:#008000;
-    color:#e7ffe7;
+    color:#white;
     margin-top: 0;
 }
 
 main section div {border-radius: 10px 10px 0 0;}
+
+main section div img {
+    border: 3px double #333;
+    display: block;
+    margin:.5rem auto;
+}
 
 #content-wrapper {
     display: flex;
@@ -111,15 +116,21 @@ main section div {border-radius: 10px 10px 0 0;}
 aside section {
     background-color: white;
     border: 1px solid #008000;
-    color: white;
-    margin: 0;
+    margin-bottom: 1rem;
     padding: .5rem;
 }
-
+aside h3{
+    background-color: #008000;
+    color: white;
+    padding: .5rem;
+    margin: 0;
+}
+    
 aside a {
     display: inline-block;
     padding: .5rem 0;
 }
+
 
 
 
