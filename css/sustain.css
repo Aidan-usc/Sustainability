@@ -82,7 +82,7 @@ main section div {
     align-content:center;
 }
 
-main section:last-child{margin-right: 0;}
+main section div:last-child{margin-right: 0;}
 
 main section div h2 {
     background-color:#008000;
@@ -90,6 +90,36 @@ main section div h2 {
     margin-top: 0;
 }
 
-    
+main section div {border-radius: 10px 10px 0 0;}
 
-main section div {border-radius: 10 10 0 0;}
+#content-wrapper {
+    display: flex;
+}
+
+#content-wrapper aside {
+    background-color: #ccc;
+    margin-right: 1rem;
+    padding: .5rem;
+    position: relative;
+    top: 20px;
+    flex: 1;
+}
+ #content-wrapper main {
+     flex: 4;
+ }
+
+aside section {
+    background-color: white;
+    border: 1px solid #008000;
+    color: white;
+    margin: 0;
+    padding: .5rem;
+}
+
+aside a {
+    display: inline-block;
+    padding: .5rem 0;
+}
+
+
+
