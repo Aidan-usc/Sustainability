@@ -66,7 +66,7 @@ main article img {
     border: double 3px #333;
     float:left;
     margin-top: .5rem; 
-    margin-right: .5rem;
+    margin-right: 1rem;
     margin-bottom: .5rem;
 }
 
@@ -130,6 +130,7 @@ aside a {
     display: inline-block;
     padding: .5rem 0;
 }
+
 
 
 
